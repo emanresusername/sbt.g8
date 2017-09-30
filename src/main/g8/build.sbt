@@ -2,7 +2,6 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.12.3",
   scalafmtOnCompile := true,
   organization := "$organization$",
-  description := "$description$",
   licenses := Seq("GPL" → url("$project_url$/license.md")),
   resolvers += "jitpack" at "https://jitpack.io",
   scalacOptions ++= Seq("-deprecation", "-feature", "-Xlint"),
